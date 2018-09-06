@@ -2,13 +2,14 @@
 
 
 from arithmetic import *
+#from arithmetic import add, subtract, multiply, divide, square, cube, power, mod, add_mult, add_cubes
 
 
 while True:
     user_input = input("> ")
     tokens = user_input.split(" ")
 
-    if "q" in tokens:
+    if "q" in tokens or "quit" in tokens:
         print("You will exit.")
         break
 
